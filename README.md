@@ -15,10 +15,10 @@ notre programme devra retourner `{prenom} vous avez {age}`.
 
 -   Vérifier si l'utilisateur à saisie une donnée.
     -   L'âge doit être un entier.
-    -   Pour le nom, peut importe si c'est un nombre ou pas
+    -   Pour le nom, peu importe si c'est un nombre ou pas
 -   Vérifier si l'utilisateur est majeur ou mineur et le retourner dans un `alert()`
 -   `Si` il est majeur dire depuis quand il est majeur
--   `Si` il est mineur dire dans combien de temps il sera majeur.
+-   `Si` il est mineur dire dans combien de temps, il sera majeur.
 
 ## Exo 2
 
@@ -27,15 +27,15 @@ On va créer notre 1er jeu, le juste prix
 Pour ce faire, nous allons faire ça en plusieurs étapes.
 
 1.  JavaScript va rechercher un nombre aléatoire entre 0 et 500. (Grâce à l'objet Math.random() et Math.floor())
-    -   Le nombre sera stocké dans une variable appelé `nbRandom`
-2.  Faire une boucle qui `tant que` le nombre saisie par l'utilisateur n'est pas trouvé affichera un nouveau `prompt` avec comme texte condition `si` le nombre est plus grand ou plus petit.
-3.  une fois le bon numéro trouvé, affiché une alerte qui informe que le user a gagné.
+    -   Le nombre sera stocké dans une variable appelée `nbRandom`
+2.  Faire une boucle qui `tant que` le nombre saisi par l'utilisateur n'est pas trouvé affichera un nouveau `prompt` avec comme texte condition `si` le nombre est plus grand ou plus petit.
+3.  une fois le bon numéro trouvé, affiché une alerte qui informe que l'user a gagné.
 
 ## Bonus
 
--   On va améliorer le programme. On va vérifier si le nombre saisie est un entier, et si c'est un entier positif.
--   On indique le nombre de tentatives que l'utilisateur à mis à touver le juste prix.
--   Si l'utilisateur annule le jeu, une alerte aparait avec le message suivant `"dommage d'abandonné, à la prochaine fois !"`.
+-   On va améliorer le programme. On va vérifier si le nombre saisi est un entier, et si c'est un entier positif.
+-   On indique le nombre de tentatives que l'utilisateur a mis à trouver le juste prix.
+-   Si l'utilisateur annule le jeu, une alerte apparaît avec le message suivant `"Dommage d'abandonner, à la prochaine fois !"`.
 
 # Les fonctions
 
